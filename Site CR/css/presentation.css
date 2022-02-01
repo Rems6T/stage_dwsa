@@ -1,0 +1,85 @@
+main.presentation img.presentation_bg {
+    position: fixed;
+    max-width: auto;
+    height: 100%;
+    width: auto;
+    top: 1%;
+}
+
+main.presentation .presentation_bloc {
+    position: absolute;
+    top: 6%;
+    right: 25%;
+    transform: translate(0%, 10%);
+    max-height: 600px;
+    max-width: 500px;
+}
+
+main.presentation .presentation_bloc_med {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translate(50%, 0%);
+}
+
+main.presentation .row {
+    margin-bottom: 6px;
+}
+
+main.presentation .row_med {
+    margin-bottom: 2em;
+}
+
+main.presentation img#presentation_img1 {
+    height: auto;
+    width: 280px;
+}
+
+main.presentation img#presentation_img1_med {
+    height: auto;
+    width: 260px;
+}
+
+main.presentation img#presentation_img2 {
+    position: relative;
+    height: 260px;
+    width: 480px;
+    opacity: 70%;
+}
+
+main.presentation img#presentation_img2_med {
+    height: 600px;
+    width: 1000px;
+}
+
+main.presentation .presentation_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: auto;
+    color: white;
+}
+
+main.presentation .presentation_txt_med {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: auto;
+    color: white;
+}
+
+main.presentation .presentation_txt p {
+    font-size: 26px;
+    margin: 0;
+    font-family: 'bree_regular';
+}
+
+main.presentation .presentation_txt_med p {
+    font-size: 22px;
+    margin: 0;
+    font-family: 'bree_regular';
+}

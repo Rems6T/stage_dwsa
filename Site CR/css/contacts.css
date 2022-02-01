@@ -1,0 +1,196 @@
+main.contacts {
+    font-family: 'parisine-bold';
+}
+
+main.contacts img.contacts_bg {
+    position: fixed;
+    max-width: auto;
+    height: 100%;
+    width: auto;
+    top: 1%;
+}
+
+main.contacts .contacts_bloc .row,
+main.contacts .contacts_bloc p,
+main.contacts .contacts_bloc h2 {
+    margin: 0;
+}
+
+main.contacts .contacts_bloc img {
+    margin: 0.2em;
+}
+
+#phone_txt {
+    font-family: 'bree_regular';
+}
+
+main.contacts .contacts_bloc {
+    padding-top: 2em;
+}
+
+main.contacts .contacts_bloc h2 {
+    text-transform: uppercase;
+}
+
+main.contacts img#contacts_img1 {
+    height: auto;
+    width: 340px;
+}
+
+main.contacts img {
+    height: 80px;
+    width: auto;
+}
+
+@media screen and (min-width: 1300px) {
+    main.contacts .contacts_bloc {
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        padding-bottom: 50px;
+    }
+    main.contacts img#contacts_img1 {
+        padding-top: 2em;
+    }
+    @media screen and (max-height: 760px) {
+        main.contacts #contacts_img1 {
+            display: none;
+        }
+        main.contacts .contacts_bloc {
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+    }
+    @media screen and (max-height: 550px) {
+        main.contacts .contacts_bg {
+            display: none;
+        }
+        main.contacts .contacts_bloc {
+            position: absolute;
+            right: 50%;
+            top: 5%;
+            transform: translate(50%, 0%);
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    main.contacts img.contacts_bg {
+        display: none;
+    }
+    main.contacts .contacts_bloc {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        padding-bottom: 50px;
+        margin-top: 20px;
+    }
+    main.contacts #contacts_img1 {
+        display: block;
+        margin-left: 6.6em;
+    }
+    @media screen and (max-height: 550px) {
+        main.contacts .contacts_bloc {
+            position: absolute;
+            right: 50%;
+            top: 5%;
+            transform: translate(50%, 0%);
+        }
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    main.contacts .contacts_bloc {
+        position: absolute;
+        margin-bottom: 50px;
+    }
+    main.contacts img#contacts_img1 {
+        display: none;
+    }
+    @media screen and (max-height: 700px) {
+        main.contacts .contacts_bg {
+            display: none;
+        }
+        main.contacts .contacts_bloc {
+            position: absolute;
+            right: 50%;
+            top: 8%;
+            transform: translate(50%, 0%);
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main.contacts img.contacts_bg {
+        display: none;
+    }
+    main.contacts .contacts_bloc {
+        position: absolute;
+        top: 35%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        padding-bottom: 50px;
+        margin-top: 20px;
+    }
+    main.contacts #contacts_img1 {
+        display: block;
+    }
+    @media screen and (max-height: 550px) {
+        main.contacts .contacts_bloc {
+            position: absolute;
+            right: 50%;
+            top: 5%;
+            transform: translate(50%, 0%);
+        }
+    }
+}
+
+@media screen and (max-width: 692px) {
+    main.contacts .contacts_bloc {
+        top: 35%;
+        transform: translate(50%, -50%);
+    }
+    main.contacts .contacts_bloc h2 {
+        font-size: 22px;
+    }
+    main.contacts .contacts_bloc p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    main.contacts .contacts_bloc h2 {
+        font-size: 20px;
+    }
+    main.contacts .contacts_bloc p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    main.contacts .contacts_bloc h2 {
+        font-size: 18px;
+    }
+    main.contacts .contacts_bloc p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    main.contacts .contacts_bloc h2 {
+        font-size: 16px;
+    }
+    main.contacts .contacts_bloc p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    main.contacts .contacts_bloc h2 {
+        font-size: 12px;
+    }
+    main.contacts .contacts_bloc p {
+        font-size: 6px;
+    }
+}

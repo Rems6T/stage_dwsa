@@ -1,0 +1,168 @@
+main.horaires img.horaires_bg {
+    position: fixed;
+    max-width: auto;
+    height: 100%;
+    width: auto;
+    top: 1%;
+}
+
+main.horaires .row {
+    margin-top: 0.9em;
+}
+
+main.horaires img#horaires_img1 {
+    height: auto;
+    width: 200px;
+}
+
+main.horaires .horaires_bloc {
+    padding-bottom: 50px;
+    margin-top: 3em;
+}
+
+main.horaires .horaires_bloc p {
+    margin: 0;
+}
+
+main.horaires #depot img {
+    height: 50px;
+    width: auto;
+}
+
+
+/* @media screen and (max-height: 1080px) {
+    @media screen and (min-width: 1550px) {
+        main.horaires .horaires_bloc {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            transform: translate(0%, 0%);
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 1550px) {
+        main.horaires img.horaires_bg {
+            display: none;
+        }
+        main.horaires .horaires_bloc {
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            width: 100%;
+            height: auto;
+        }
+    }
+} */
+
+@media screen and (min-width: 1184px) {
+    main.horaires .horaires_bloc {
+        position: absolute;
+        top: 5%;
+        right: 16%;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 22px;
+    }
+    @media screen and (max-height: 774px) {
+        main.horaires img#horaires_img1 {
+            display: none;
+        }
+    }
+    @media screen and (max-height: 630px) {
+        main.horaires img.horaires_bg {
+            display: none;
+        }
+        main.horaires .horaires_bloc {
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1184px) {
+    main.horaires .horaires_bloc {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 100%;
+        height: auto;
+    }
+    main.horaires img.horaires_bg {
+        display: none;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 24px;
+    }
+    @media screen and (max-height: 770px) {
+        main.horaires img#horaires_img1 {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    #horaires_img1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .horaires_bloc h3 {
+        font-size: 20px;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .horaires_bloc h3 {
+        font-size: 18px;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 16px;
+    }
+    main.horaires #depot img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .horaires_bloc h3 {
+        font-size: 16px;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .horaires_bloc h3 {
+        font-size: 14px;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 247px) {
+    .horaires_bloc h3 {
+        font-size: 12px;
+    }
+    main.horaires .horaires_bloc p {
+        font-size: 10px;
+    }
+}

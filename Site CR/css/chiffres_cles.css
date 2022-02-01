@@ -1,0 +1,342 @@
+main.chiffres_cles {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+}
+
+main.chiffres_cles #top,
+main.chiffres_cles #bottom {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+main.chiffres_cles #grande_phrase {
+    padding-top: 1em;
+    font-family: 'parisine-bold';
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 0;
+}
+
+main.chiffres_cles #petite_phrase {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-size: 18px;
+}
+
+main.chiffres_cles #normal_size p,
+main.chiffres_cles #normal_size h1 {
+    margin: 0;
+}
+
+#medium_size {
+    display: none;
+}
+
+@media screen and (min-width: 1920px) {
+    main.chiffres_cles #normal_size {
+        position: absolute;
+        width: 100%;
+    }
+    main.chiffres_cles #normal_size .img_bloc {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    main.chiffres_cles #normal_size img {
+        max-width: 1920px;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img,
+    main.chiffres_cles #normal_size #bottom {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img {
+        transform: translate(3%, -50%);
+        top: 50%;
+        width: 1920px;
+    }
+    main.chiffres_cles #normal_size #bottom {
+        width: 1920px;
+        transform: translate(3%, 100%);
+        bottom: 0;
+    }
+    main.chiffres_cles #normal_size #out_img {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div {
+        text-transform: uppercase;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div,
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        width: 20%;
+    }
+    main.chiffres_cles #normal_size h1 {
+        font-size: 8rem;
+    }
+    main.chiffres_cles #normal_size p {
+        font-size: 2rem;
+    }
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    main.chiffres_cles #normal_size {
+        position: absolute;
+        width: 100%;
+    }
+    main.chiffres_cles #normal_size .img_bloc {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    main.chiffres_cles #normal_size img {
+        max-width: 1680px;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img,
+    main.chiffres_cles #normal_size #bottom {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img {
+        transform: translate(3%, -50%);
+        top: 50%;
+        width: 1680px;
+    }
+    main.chiffres_cles #normal_size #bottom {
+        width: 1680px;
+        transform: translate(3%, 100%);
+        bottom: 0;
+    }
+    main.chiffres_cles #normal_size #out_img {
+        bottom: 0%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div {
+        text-transform: uppercase;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div,
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        width: 20%;
+    }
+    main.chiffres_cles #normal_size h1 {
+        font-size: 7rem;
+    }
+    main.chiffres_cles #normal_size p {
+        font-size: 28px;
+    }
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    main.chiffres_cles #normal_size {
+        position: absolute;
+        width: 100%;
+    }
+    main.chiffres_cles #normal_size .img_bloc {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    main.chiffres_cles #normal_size img {
+        max-width: 1440px;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img,
+    main.chiffres_cles #normal_size #bottom {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img {
+        transform: translate(3%, -50%);
+        top: 50%;
+        width: 1440px;
+    }
+    main.chiffres_cles #normal_size #bottom {
+        width: 1440px;
+        transform: translate(3%, 100%);
+        bottom: 0;
+    }
+    main.chiffres_cles #normal_size #out_img {
+        bottom: 0%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div {
+        text-transform: uppercase;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div,
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        width: 20%;
+    }
+    main.chiffres_cles #normal_size h1 {
+        font-size: 6rem;
+    }
+    main.chiffres_cles #normal_size p {
+        font-size: 24px;
+    }
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    main.chiffres_cles #normal_size {
+        position: absolute;
+        width: 100%;
+    }
+    main.chiffres_cles #normal_size .img_bloc {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    main.chiffres_cles #normal_size img {
+        max-width: 1280px;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img,
+    main.chiffres_cles #normal_size #bottom {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img {
+        transform: translate(3%, -50%);
+        top: 50%;
+        width: 1280px;
+    }
+    main.chiffres_cles #normal_size #bottom {
+        width: 1280px;
+        transform: translate(3%, 100%);
+        bottom: 0;
+    }
+    main.chiffres_cles #normal_size #out_img {
+        bottom: 0%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div {
+        text-transform: uppercase;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div,
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        width: 20%;
+    }
+    main.chiffres_cles #normal_size h1 {
+        font-size: 5rem;
+    }
+    main.chiffres_cles #normal_size p {
+        font-size: 20px;
+    }
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    main.chiffres_cles #normal_size {
+        position: absolute;
+        width: 100%;
+    }
+    main.chiffres_cles #normal_size .img_bloc {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    main.chiffres_cles #normal_size img {
+        max-width: 1080px;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img,
+    main.chiffres_cles #normal_size #bottom {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img {
+        transform: translate(3%, -50%);
+        top: 50%;
+        width: 1080px;
+    }
+    main.chiffres_cles #normal_size #bottom {
+        width: 1080px;
+        transform: translate(3%, 100%);
+        bottom: 0;
+    }
+    main.chiffres_cles #normal_size #out_img {
+        bottom: 0%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div {
+        text-transform: uppercase;
+    }
+    main.chiffres_cles #normal_size .img_bloc #in_img div,
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        width: 20%;
+    }
+    main.chiffres_cles #normal_size h1 {
+        font-size: 4rem;
+    }
+    main.chiffres_cles #normal_size p {
+        font-size: 16px;
+    }
+    main.chiffres_cles #normal_size #out_img .txt_out_img {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #normal_size {
+        display: none;
+    }
+    main.chiffres_cles #medium_size {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 2em;
+    }
+    main.chiffres_cles #medium_size .row {
+        margin: 0;
+    }
+    main.chiffres_cles .picto {
+        width: 250px;
+    }
+    main.chiffres_cles img {
+        padding-bottom: 1em;
+        height: 150px;
+        width: auto;
+    }
+    @media screen and (max-width: 500px) {
+        main.chiffres_cles #top #grande_phrase {
+            font-size: 20px;
+        }
+        main.chiffres_cles .picto img {
+            width: 150px;
+            height: auto;
+        }
+        main.chiffres_cles #medium_size h2 {
+            font-size: 1.5rem;
+        }
+        main.chiffres_cles #medium_size p {
+            font-size: 16px;
+        }
+    }
+}

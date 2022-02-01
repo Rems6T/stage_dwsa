@@ -1,0 +1,175 @@
+main.ateliers {
+    text-transform: uppercase;
+}
+
+main.ateliers #phrase {
+    margin-top: 6em;
+    margin-bottom: 5em;
+}
+
+main.ateliers #phrase_mobile {
+    margin-top: 4.5em;
+    margin-bottom: 1em;
+}
+
+main.ateliers #phrase p {
+    font-size: 28px;
+    margin: 0;
+}
+
+main.ateliers #phrase_mobile p {
+    font-size: 18px;
+    margin: 0;
+}
+
+main.ateliers #bottom {
+    position: relative;
+    margin-top: 10em;
+}
+
+main.ateliers #bottom .noms_ateliers div.bot_noms {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+main.ateliers #bottom .noms_ateliers div p {
+    margin: 0;
+    text-align: center;
+}
+
+main.ateliers #bottom img {
+    width: 98%;
+}
+
+main.ateliers #bottom_small #smaller_size {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    main.ateliers #bottom .noms_ateliers {
+        position: absolute;
+        transform: translate(1.5%, -45%);
+        width: 100%;
+    }
+    main.ateliers #bottom .noms_ateliers div {
+        font-size: auto;
+        text-size-adjust: 100%;
+        width: 8.85%;
+        text-align: center;
+        height: 15em;
+    }
+    main.ateliers #bottom .img {
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -50%);
+        max-width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    main.ateliers #bottom .noms_ateliers {
+        position: absolute;
+        transform: translate(1.2%, -45%);
+        width: 100%;
+    }
+    main.ateliers #bottom .noms_ateliers div {
+        font-size: auto;
+        text-size-adjust: 100%;
+        width: 8.85%;
+        text-align: center;
+        height: 16em;
+    }
+    main.ateliers #bottom .img {
+        position: absolute;
+        top: 50%;
+        transform: translate(0.4%, -50%);
+        max-width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:437px) {
+    main.ateliers #bottom_small {
+        max-height: 80%;
+        height: auto;
+        vertical-align: middle;
+        padding-bottom: 50px;
+    }
+    main.ateliers #bottom_small .img_mobile {
+        max-height: 80%;
+    }
+    main.ateliers #bottom_small .img_mobile img {
+        position: absolute;
+        height: 590px;
+        top: 50%;
+        transform: translate(1%, -4%);
+    }
+    main.ateliers #bottom_small .noms_ateliers {
+        padding-bottom: 0.5em;
+        padding-left: 4.5em;
+        display: flex;
+        flex-direction: column;
+    }
+    main.ateliers #bottom_small .noms_ateliers#small_size {
+        display: flex;
+        align-content: left;
+        margin-left: 2.1em;
+    }
+    main.ateliers #bottom_small .noms_ateliers#small_size div {
+        font-size: auto;
+        margin-bottom: 0.8em;
+    }
+    main.ateliers #bottom_small .noms_ateliers#small_size div img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:437px) {
+    main.ateliers #bottom_small {
+        vertical-align: middle;
+        max-height: 80%;
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    main.ateliers #bottom_small .img_mobile {
+        display: none;
+    }
+    main.ateliers #bottom_small .noms_ateliers {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.5em;
+        padding-left: 1.2em;
+    }
+    main.ateliers #bottom_small .noms_ateliers#small_size div {
+        font-size: auto;
+        margin-bottom: 1.77em;
+    }
+    main.ateliers #bottom_small .noms_ateliers#small_size {
+        display: none;
+    }
+    main.ateliers #bottom_small .noms_ateliers#smaller_size {
+        display: block;
+    }
+    main.ateliers #bottom_small .noms_ateliers#smaller_size,
+    main.ateliers #bottom_small {
+        margin: 0;
+    }
+    main.ateliers #bottom_small .noms_ateliers#smaller_size div {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1px;
+    }
+    main.ateliers #bottom_small .noms_ateliers#smaller_size div img {
+        display: block;
+        height: 50px;
+    }
+    main.ateliers #bottom_small .noms_ateliers#smaller_size div.row .left img {
+        float: left;
+    }
+    main.ateliers #bottom_small .noms_ateliers#smaller_size div.row .right img {
+        float: right;
+    }
+}

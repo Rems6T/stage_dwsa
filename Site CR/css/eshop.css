@@ -1,0 +1,237 @@
+main.eshop {
+    padding-top: 1em;
+}
+
+main.eshop #phrase_titre p {
+    font-family: 'bree_regular';
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+main.eshop #phrase_description {
+    font-family: 'bree_regular';
+    margin: 0;
+}
+
+main.eshop #bottom {
+    position: relative;
+}
+
+@media screen and (min-width: 1920px) {
+    main.eshop #bottom img {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    main.eshop #phrase_titre p {
+        font-size: 30px;
+    }
+    main.eshop #phrase_description {
+        font-size: 22px;
+    }
+    @media screen and (min-height: 1090px) {
+        main.eshop #bottom img {
+            width: 1920px;
+        }
+    }
+    @media screen and (max-height: 1090px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 66%;
+        }
+    }
+    @media screen and (max-height: 912px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 60%;
+        }
+    }
+    @media screen and (max-height: 800px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 55%;
+        }
+    }
+    @media screen and (max-height: 700px) {
+        main.eshop #bottom img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    main.eshop #bottom img {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin: auto;
+        height: 65%;
+        width: auto;
+    }
+    main.eshop #phrase_titre p {
+        font-size: 30px;
+    }
+    main.eshop #phrase_description {
+        font-size: 22px;
+    }
+    @media screen and (min-height: 1090px) {
+        main.eshop #bottom img {
+            height: 65%;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+    @media screen and (max-height: 900px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 55%;
+        }
+    }
+    @media screen and (max-height: 700px) {
+        main.eshop #bottom img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    main.eshop #top {
+        margin-top: 1.35em;
+    }
+    main.eshop #bottom img {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin: auto;
+        height: 65%;
+        width: auto;
+    }
+    @media screen and (min-height: 944px) {
+        main.eshop #bottom img {
+            height: 60%;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+    @media screen and (max-height: 944px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 55%;
+        }
+    }
+    @media screen and (max-height: 750px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 50%;
+        }
+    }
+    @media screen and (max-height: 650px) {
+        main.eshop #bottom img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    main.eshop #top {
+        margin-top: 2em;
+    }
+    main.eshop #bottom img {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin: auto;
+    }
+    @media screen and (min-height: 1090px) {
+        main.eshop #bottom img {
+            height: 65%;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+    @media screen and (max-height: 830px) {
+        main.eshop #bottom img {
+            width: auto;
+            height: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    main.eshop #phrase_titre p {
+        font-size: 30px;
+    }
+    main.eshop #phrase_description {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main.eshop #phrase_titre p {
+        font-size: 26px;
+    }
+    main.eshop #phrase_description {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    main.eshop #phrase_titre p {
+        font-size: 22px;
+    }
+    main.eshop #phrase_description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    main.eshop #phrase_titre p {
+        font-size: 18px;
+    }
+    main.eshop #phrase_description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    main.eshop #phrase_titre p {
+        font-size: 14px;
+    }
+    main.eshop #phrase_description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    main.eshop #phrase_titre p {
+        font-size: 14px;
+    }
+    main.eshop #phrase_description {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    main.eshop #phrase_titre p {
+        font-size: 10px;
+    }
+    main.eshop #phrase_description {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    main.eshop #phrase_titre p {
+        font-size: 6px;
+    }
+    main.eshop #phrase_description {
+        font-size: 4px;
+    }
+}

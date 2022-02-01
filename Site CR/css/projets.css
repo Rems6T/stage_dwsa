@@ -1,0 +1,7 @@
+main.projets img.projets_bg {
+    position: fixed;
+    max-width: auto;
+    height: 100%;
+    width: auto;
+    top: 1%;
+}

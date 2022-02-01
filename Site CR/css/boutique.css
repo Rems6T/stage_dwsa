@@ -1,0 +1,187 @@
+main.boutique img.boutique_bg {
+    position: fixed;
+    max-width: auto;
+    height: 100%;
+    width: auto;
+    top: 1%;
+}
+
+main.boutique #boutique p {
+    margin: 0;
+}
+
+main.boutique #boutique h2 {
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1851px) {
+    .boutique_bloc {
+        font-size: 26px;
+    }
+    main.boutique .boutique_bloc {
+        position: absolute;
+        top: 10%;
+        right: 25%;
+    }
+    main.boutique img#boutique_img1 {
+        height: auto;
+        width: 150px;
+    }
+    @media screen and (max-height:650px) {
+        main.boutique img.boutique_bg {
+            display: none;
+        }
+        main.boutique .boutique_bloc {
+            position: absolute;
+            top: 10%;
+            right: 50%;
+            transform: translate(50%, 0%);
+        }
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    main.boutique .boutique_bloc {
+        position: absolute;
+        top: 10%;
+        right: 15%;
+    }
+    .boutique_bloc {
+        font-size: 26px;
+    }
+    main.boutique img#boutique_img1 {
+        height: auto;
+        width: 150px;
+    }
+    @media screen and (max-height:650px) {
+        main.boutique img.boutique_bg {
+            display: none;
+        }
+        main.boutique .boutique_bloc {
+            position: absolute;
+            top: 10%;
+            right: 50%;
+            transform: translate(50%, 0%);
+        }
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    main.boutique .boutique_bloc {
+        position: absolute;
+        top: 8%;
+        right: 15%;
+    }
+    .boutique_bloc {
+        font-size: 22px;
+        padding-top: 1em;
+    }
+    @media screen and (max-height:840px) {
+        main.boutique .boutique_bloc {
+            right: 15%;
+        }
+    }
+    @media screen and (max-height:650px) {
+        main.boutique .boutique_bloc {
+            right: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    main.boutique img.boutique_bg {
+        display: none;
+    }
+    main.boutique .boutique_bloc {
+        position: absolute;
+        top: 10%;
+        right: 50%;
+        transform: translate(50%, 0%);
+    }
+}
+
+@media screen and (max-width: 968px) {
+    main.boutique .boutique_bloc img {
+        height: auto;
+        width: 140px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .boutique_bloc p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    main.boutique .boutique_bloc img {
+        height: auto;
+        width: 130px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .boutique_bloc p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    main.boutique .boutique_bloc img {
+        height: auto;
+        width: 120px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .boutique_bloc p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    main.boutique .boutique_bloc img {
+        height: auto;
+        width: 110px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .boutique_bloc p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    main.boutique .boutique_bloc img {
+        height: auto;
+        width: 100px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .boutique_bloc p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    main.boutique .boutique_bloc img {
+        display: none;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .boutique_bloc p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    h2 {
+        font-size: 12px;
+    }
+    .boutique_bloc p {
+        font-size: 6px;
+    }
+}
